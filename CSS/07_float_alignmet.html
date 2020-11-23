@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float/Alignment</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            line-height: 1.4em;
+        }
+        .container{
+            max-width: 960px;
+            margin: auto;
+        }
+        .box{
+            background: #f4f4f4;
+            border: 1px solid #333;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .box p{
+            text-align: center;
+        }
+        #Box2{
+            float: left;
+            width: 68%;
+        }
+        #Box3{
+            float: right;
+            width: 30%;
+        }
+        .clr{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="Box1" class="box">
+            <h3>Heading one </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, unde iusto? Sunt natus asperiores amet odio molestias temporibus, veritatis consequuntur, cum, aliquid hic nostrum ab.</p>
+        </div>
+        <div id="Box2" class="box">
+            <h3>Heading two </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, unde iusto? Sunt natus asperiores amet odio molestias temporibus, veritatis consequuntur, cum, aliquid hic nostrum ab.</p>
+        </div>
+        <div id="Box3" class="box">
+            <h3>Heading three </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, unde iusto? Sunt natus asperiores amet odio molestias temporibus, veritatis consequuntur, cum, aliquid hic nostrum ab.</p>
+        </div>
+        <div class="clr"></div>
+        <div id="Box4" class="box">
+            <h3>Heading three </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, unde iusto? Sunt natus asperiores amet odio molestias temporibus, veritatis consequuntur, cum, aliquid hic nostrum ab.</p>
+        </div>
+    </div>
+</body>
+</html>

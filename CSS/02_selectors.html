@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        body{
+            background-color: #333;
+        }
+        .WelcomeHeading{
+            color: aqua;
+        }
+        #primary_Block{
+            background-color: #f4f4f4;
+        }
+        #primary_Block,.About_Block{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        #primary_Block p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="primary_Block">
+        <h2 class="WelcomeHeading">Welcome</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tenetur aut consequatur quaerat, qui eligendi rerum ad enim fugiat itaque!</p>
+    </div>
+    <div class="About_Block">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur unde sequi, accusamus hic delectus laudantium ducimus asperiores deleniti quod similique.</p>
+    </div>
+</body>
+</html>

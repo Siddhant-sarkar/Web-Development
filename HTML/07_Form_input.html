@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms And Html</title>
+</head>
+<body>
+    <form action="process.php">
+        <div>
+            <label for="Name">Name</label><br>
+            <input type="text" value="your Name Here" id="Name">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" placeholder="Email Here -->">
+        </div>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="Message" id="message" cols="50" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="sex">Sex</label><br>
+            <select name="sex" id="sex">
+                <option value="Male" checked>Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Prefer Not To Say</option>
+            </select>
+        </div>
+        <div>
+            <label for="age">Age</label><br>
+            <input type="number" name="age" id="age">
+        </div>
+        <div>
+            <label for="Birth Date">Date of Birth</label><br>
+            <input type="date" name="Bith Date" id="Birth Date">
+        </div>
+        <div>
+            <label for="Membership">Select Membership</label><br>
+            <input type="radio" name="Membership" value="Delux" id="Membership" checked>Delux<br> 
+            <input type="radio" name="Membership" id="Membership" value="Super Delux">Super Delux
+        </div>
+        <div>
+            <label for="Hobbies">I like ...</label><br>
+            <input type="checkbox" name="Hobbies" value="Badminton" id="Hobbies" >Badminton<br> 
+            <input type="checkbox" name="Hobbies" value="Swimming" id="Hobbies" >Swimming<br> 
+            <input type="checkbox" name="Hobbies" value="Guitar" id="Hobbies" >Guitar<br> 
+            <input type="checkbox" name="Hobbies" value="Mtb" id="Hobbies" >Mountatin Biking<br> 
+        </div>
+        <input type="Submit" value="Submit">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
