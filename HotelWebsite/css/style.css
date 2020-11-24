@@ -61,6 +61,7 @@ p{
     clear: both;
 }
 .h-large{
+    padding-top: 30px;
     font-size: 30px;
 }
 #navbar{
@@ -154,6 +155,7 @@ p{
    /* right: px; */
    left: 541px;
 }
+
 #about-info .info-right{
     float: right;
     width: 50%;
@@ -175,6 +177,11 @@ p{
     background: url('../Img_Folder/test-bg.jpg') no-repeat center center /cover;
     padding-top: 40px;
 }
+.testimonial{
+    margin: 0px 40px;
+}
 #testimonial .testimonial img{
     width: 100px;
+    float: left;
+    max-height: 100%;
 }
