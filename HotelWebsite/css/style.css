@@ -62,7 +62,7 @@ p{
 }
 .h-large{
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 #navbar{
     background: #182825;
@@ -147,15 +147,21 @@ p{
     height: 50px;
     text-align: center;
 }
-#main-footer i{
+#main-footer p {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+/* #main-footer i{
     display: inline;
     float: left;
    margin: auto;
    position: relative;
-   /* right: px; */
    left: 541px;
+} */
+#about-info{
+    background-color: #B4C6CF;
 }
-
 #about-info .info-right{
     float: right;
     width: 50%;
@@ -170,18 +176,78 @@ p{
     display: block;
     margin: auto;
     width: 70%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
-#testimonial{
+#testimonials{
     height: 600px;
     background: url('../Img_Folder/test-bg.jpg') no-repeat center center /cover;
     padding-top: 40px;
 }
-.testimonial{
-    margin: 0px 40px;
+#testimonials .container h1{
+    padding: 40px 0px;
+    font-size: 50px;
+    color: #e6ecef;
+    text-align: center;
 }
-#testimonial .testimonial img{
+#testimonials .testimonial #tst-1{
+     margin-left: 20px;
+}
+#testimonials .testimonial{
+    background-color: #B4C6CF;
+    height: 140px;
+    color: #182825;
+    padding: 20px;
+    margin-bottom:40px ;
+    border-radius: 5px;
+    ;
+    
+}
+#testimonials .testimonial img{
     width: 100px;
     float: left;
-    max-height: 100%;
+    z-index: 25;
+    margin-right: 20px;
+    border-radius: 50%;
+    
+}
+#contact-form .form-group
+#contact-form .container button{
+    margin-bottom: 20px;
+    padding: 0px 10px 0px 10px;
+}
+#contact-form lable{
+    display: block;
+    margin-bottom: 5px;
+}
+#contact-form .container h1{
+    text-align: center;
+    font-size: 50px;
+}
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: #B4C6CF solid 1px;
+    
+}
+#contact-form textarea{
+    height:200px
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border: #0b9dfe 2px solid;
+}
+#main-footer-about{
+    /* text-align: center; */
+    background-color: #0f1a18;
+    padding: 10px;
+    color: #0b9dfe;
+    /* height: 0px; */
+    text-align: center;
+}
+#main-footer-about p {
+    margin: 0px;
+    padding-top: 10px;
+    font-size: 1.2em;
 }
