@@ -1,0 +1,16 @@
+more type of selectors:
+   > is the childern of selectors
+   + is the sibling of selectors
+   ~ preceding Selectors
+specfic selectors:
+   element[property]{
+      //this properties we want
+   }
+   a[target='_blank']{
+
+   }
+
+
+
+nth child Element:
+   li
